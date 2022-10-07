@@ -26,5 +26,11 @@ public class Main {
         double mark = 89.7d;
         String alphaMark = Conditions.ShowAlphaSignByValue(mark);
         System.out.println(alphaMark);
+
+        System.out.println(Switch.OperationOn2ValueByOperator(12, 12, '*'));
+        System.out.println(Switch.OperationOn2ValueByOperator(8, 2, '/'));
+        System.out.println(Switch.OperationOn2ValueByOperator(11, 2, '+'));
+        System.out.println(Switch.OperationOn2ValueByOperator(80, 30, '-'));
+        System.out.println(Switch.OperationOn2ValueByOperator(80, 30, ' '));
     }
 }
