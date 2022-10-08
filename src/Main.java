@@ -32,5 +32,9 @@ public class Main {
         System.out.println(Switch.OperationOn2ValueByOperator(11, 2, '+'));
         System.out.println(Switch.OperationOn2ValueByOperator(80, 30, '-'));
         System.out.println(Switch.OperationOn2ValueByOperator(80, 30, ' '));
+
+        Loop.DoWhilePrint();
+        Loop.WhilePrint();
+        Loop.ForPrint();
     }
 }
