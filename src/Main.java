@@ -36,5 +36,10 @@ public class Main {
         Loop.DoWhilePrint();
         Loop.WhilePrint();
         Loop.ForPrint();
+
+        CarClass nissan = new CarClass();
+        CarClass bmw = new CarClass(120d);
+        System.out.println("nissan speed: " + nissan.GetCarSpeed());
+        System.out.println(("bmw speed: " + bmw.GetCarSpeed()));
     }
 }
