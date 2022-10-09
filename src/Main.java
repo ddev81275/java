@@ -1,3 +1,7 @@
+import Collections.ListClass;
+
+import java.util.Collection;
+
 public class Main {
     public static void main(String[] args) {
         int userOld = 21;
@@ -41,5 +45,9 @@ public class Main {
         CarClass bmw = new CarClass(120d);
         System.out.println("nissan speed: " + nissan.GetCarSpeed());
         System.out.println(("bmw speed: " + bmw.GetCarSpeed()));
+
+        //package
+        ListClass list = new Collections.ListClass();
+        System.out.println(list);
     }
 }
